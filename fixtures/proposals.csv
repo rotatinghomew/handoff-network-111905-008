@@ -1,5 +1,5 @@
 id,duty,offer,deadline,status
-P1,T1,F1,605,issued
+P1,T1,F1,620,issued
 P2,T2,F4,610,issued
-P3,T3,F6,580,adopted
+P3,T3,F6,620,adopted
 P4,T4,F7,668,issued

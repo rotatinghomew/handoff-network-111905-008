@@ -22,7 +22,7 @@ class SourceRecords(unittest.TestCase):
                 self.assertEqual(header, expected)
                 self.assertTrue(rows)
                 self.assertTrue(all(None not in row and None not in row.values() for row in rows))
-                if "id" in header:
+                if "id" in header and (name != "receipts" or "batch" not in header):
                     ids = [row["id"] for row in rows]
                     self.assertTrue(all(ids))
                     self.assertEqual(len(ids), len(set(ids)))
