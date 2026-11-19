@@ -4,8 +4,8 @@ import unittest
 
 
 FIXTURES = Path(__file__).resolve().parents[1] / "fixtures"
-HEADERS = {'duties': ['id', 'duty_type', 'holder', 'site', 'from_min', 'until_min', 'handoff_by'], 'availability': ['id', 'person', 'site', 'from_min', 'until_min'], 'qualifications': ['id', 'person', 'duty_type', 'from_min', 'until_min'], 'transfer_offers': ['id', 'from_person', 'to_person', 'site', 'from_min', 'until_min', 'mins', 'supervisor'], 'locks': ['id', 'person', 'duty', 'from_min', 'until_min', 'state'], 'proposals': ['id', 'duty', 'offer', 'deadline', 'status'], 'receipts': ['id', 'proposal', 'side', 'state', 'minute'], 'scenarios': ['id', 'kind', 'origin_ref', 'from_min', 'until_min']}
-LINKS = [('proposals', 'duty', 'duties', 'id'), ('proposals', 'offer', 'transfer_offers', 'id'), ('receipts', 'proposal', 'proposals', 'id'), ('locks', 'duty', 'duties', 'id')]
+HEADERS = {'availability': ['id', 'person', 'site', 'from_min', 'until_min'], 'contingency_plans': ['id', 'world', 'not_before', 'duty', 'offer', 'decision_at', 'kind'], 'duties': ['id', 'duty_type', 'holder', 'site', 'from_min', 'until_min', 'handoff_by'], 'incident_observations': ['id', 'signal', 'observed', 'world'], 'locks': ['id', 'person', 'duty', 'from_min', 'until_min', 'state'], 'proposals': ['id', 'duty', 'offer', 'deadline', 'status'], 'qualifications': ['id', 'person', 'duty_type', 'from_min', 'until_min'], 'receipts': ['id', 'proposal', 'side', 'state', 'minute'], 'scenario_branches': ['world', 'signal', 'observed', 'change', 'kind'], 'scenarios': ['id', 'kind', 'origin_ref', 'from_min', 'until_min'], 'transfer_offers': ['id', 'from_person', 'to_person', 'site', 'from_min', 'until_min', 'mins', 'supervisor']}
+LINKS = [('proposals', 'duty', 'duties', 'id'), ('proposals', 'offer', 'transfer_offers', 'id'), ('receipts', 'proposal', 'proposals', 'id'), ('locks', 'duty', 'duties', 'id'), ('contingency_plans', 'duty', 'duties', 'id'), ('contingency_plans', 'offer', 'transfer_offers', 'id'), ('incident_observations', 'world', 'scenario_branches', 'world')]
 
 
 def read(name):
