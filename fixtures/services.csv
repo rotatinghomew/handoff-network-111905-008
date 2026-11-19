@@ -1,4 +1,7 @@
-id,role,due,site,commitment
-S1,R4,09:00,A,confirmed
-S2,R2,09:20,B,confirmed
-S3,R3,10:00,A,tentative
+id,source,target,release,deadline,permission,reserve
+S1,P1,P5,18:03,18:18,需保密,yes
+S2,P1,P5,18:07,18:25,普通,no
+S3,P1,P6,18:58,19:12,需保密,yes
+S4,P1,P8,19:30,19:45,普通,no
+S5,P7,P6,19:35,19:48,需保密,yes
+S6,P5,P6,19:34,19:47,普通,no

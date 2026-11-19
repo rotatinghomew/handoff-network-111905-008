@@ -1,0 +1,5 @@
+id,source,target,channel,permission,resource,start,end,minutes,replaces
+Q1,P2,P5,ALT-X,需保密,test-A,18:10,18:35,4,L2
+Q2,P4,P5,ALT-Y,需保密,test-A,18:10,18:35,4,L6
+Q3,P7,P6,ALT-Z,需保密,U2,19:25,20:00,3,L10
+Q4,P5,P8,ALT-Y,普通,test-B,19:30,20:15,4,L9

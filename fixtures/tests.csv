@@ -1,4 +1,13 @@
-id,link,failure,tested_at,result,receipt
-T1,L1,C1,08:10,pass,E1
-T2,L2,person_absent,08:15,pass,E2
-T3,L3,C2,08:35,unknown,
+id,trial,link,shift,permission,result,from,to
+T1,B1,L1,day,需保密,confirmed,18:01,18:01
+T2,B1,L2,day,需保密,confirmed,18:07,18:07
+T3,B2,L3,day,普通,confirmed,18:05,18:06
+T4,B2,L4,day,普通,confirmed,18:10,18:10
+T5,B3,L5,day,需保密,confirmed,18:06,18:09
+T6,B3,L6,day,需保密,missing,18:12,18:22
+T7,B4,L5,night,需保密,confirmed,19:04,19:06
+T8,B4,L7,night,需保密,confirmed,19:10,19:12
+T9,B5,L8,night,普通,confirmed,19:40,19:40
+T10,B6,L8,night,需保密,missing,19:41,19:48
+T11,B7,L10,night,需保密,failure,19:44,19:44
+T12,B8,L11,night,普通,confirmed,19:46,19:47

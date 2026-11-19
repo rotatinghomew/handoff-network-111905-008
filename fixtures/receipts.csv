@@ -1,0 +1,11 @@
+id,service,link,channel,kind,effective,received,owner,prior
+R1,S1,L2,,signed,18:03,18:03,P2,
+R2,S3,L7,,signed,18:58,18:58,P4,
+R3,S5,L10,,signed,19:02,19:02,P7,
+R4,,,TELL-A,down,18:04,18:06,,
+R5,S1,L6,,handoff_proposed,18:06,18:06,P4,R1
+R6,S1,L6,,handoff_withdrawn,18:14,18:14,P4,R5
+R7,S1,L6,,handoff_ack,18:13,18:16,P4,R5
+R8,,,TELL-A,restored,18:14,18:17,,R4
+R9,,,TELL-E,down,19:36,19:37,,
+R10,,,TELL-E,restored,19:45,19:45,,R9
