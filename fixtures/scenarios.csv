@@ -1,0 +1,4 @@
+id,kind,origin_ref,from_min,until_min
+S1,availability,A9,610,640
+S2,qualification,Q3,590,750
+S3,availability,A8,605,720

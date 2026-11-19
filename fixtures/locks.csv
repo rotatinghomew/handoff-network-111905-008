@@ -1,0 +1,4 @@
+id,person,duty,from_min,until_min,state
+L1,V3,T1,605,630,confirmed
+L2,V8,T3,590,655,worked
+L3,V7,T4,670,705,confirmed

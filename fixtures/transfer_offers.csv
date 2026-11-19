@@ -1,0 +1,9 @@
+id,from_person,to_person,site,from_min,until_min,mins,supervisor
+F1,V1,V3,N,605,620,10,V9
+F2,V1,V5,N,590,620,10,V9
+F3,V2,V3,N,605,635,15,V9
+F4,V2,V5,N,605,635,15,
+F5,V2,V7,N,610,640,15,
+F6,V4,V8,S,585,660,10,
+F7,V6,V7,N,660,690,10,
+F8,V5,V3,N,625,655,10,V9
