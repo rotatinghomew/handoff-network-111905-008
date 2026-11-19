@@ -1,0 +1,13 @@
+event_id,case_id,work_item,event_type,occurred_at,recorded_at,unit,reference,resident_update
+h001,l601,w1,accepted,2026-02-01T08:00:00,2026-02-01T08:00:00,grid-a,,received
+h002,l601,w1,assigned,2026-02-01T08:20:00,2026-02-01T08:20:00,water,,in-progress
+h003,l601,w2,assigned,2026-02-01T08:25:00,2026-02-01T08:25:00,facility,,in-progress
+h004,l601,w1,rejected,2026-02-01T12:00:00,2026-02-01T12:15:00,water,h002,in-progress
+h005,l601,w1,reassigned,2026-02-01T13:00:00,2026-02-01T13:00:00,utility,h004,in-progress
+h006,l601,w2,completed,2026-02-02T10:00:00,2026-02-02T10:00:00,facility,h003,partial-update
+h007,l602,w1,accepted,2026-02-02T09:00:00,2026-02-02T09:00:00,grid-b,,received
+h008,l602,w1,assigned,2026-02-02T09:20:00,2026-02-02T09:20:00,road,,in-progress
+h009,l602,w1,completed,2026-02-03T15:00:00,2026-02-03T15:00:00,road,h008,completed
+h010,l603,w1,accepted,2026-02-04T17:00:00,2026-02-04T17:00:00,grid-a,,received
+h011,l603,w1,assigned,2026-02-05T08:00:00,2026-02-05T08:00:00,heating,,in-progress
+h012,l603,w1,update,2026-02-06T08:00:00,2026-02-06T08:00:00,heating,h011,waiting-for-inspection
