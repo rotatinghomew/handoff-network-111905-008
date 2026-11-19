@@ -1,8 +1,0 @@
-id,proposal,side,state,minute
-R1,P1,to,ack,607
-R2,P2,from,ack,606
-R3,P3,from,ack,590
-R4,P3,to,ack,592
-R5,P3,to,taken,595
-R6,P4,from,ack,661
-R7,P4,to,ack,663

@@ -1,6 +1,0 @@
-id,world,not_before,duty,offer,decision_at,kind
-CP1,*,590,T1,F2,590,invite
-CP2,*,605,T2,F4,605,invite
-CP3,BASE,621,T1,F8,622,invite
-CP4,LICENSE,621,T2,F5,623,invite
-CP5,FLOOR,621,T2,F3,623,invite

@@ -1,5 +1,0 @@
-id,duty_type,holder,site,from_min,until_min,handoff_by
-T1,上门协助,V1,N,480,620,630
-T2,窗口交接,V2,N,500,615,630
-T3,文档送达,V4,S,550,660,700
-T4,窗口交接,V6,N,570,690,700

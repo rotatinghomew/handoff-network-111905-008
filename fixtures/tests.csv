@@ -1,0 +1,4 @@
+id,link,failure,tested_at,result,receipt
+T1,L1,C1,08:10,pass,E1
+T2,L2,person_absent,08:15,pass,E2
+T3,L3,C2,08:35,unknown,
